@@ -146,7 +146,7 @@ function SendRequest(url) {
   </div>
       <div class="row">
         <p class="m-b-0">RSSI: <span id="c_rssi">0</span>, Uptime: <span id="c_uptime">0</span> min(s), SSID: <span id="c_ssid"></span>, IP: <span id="c_ip"></span>, clientid: <span id="c_clientid"></span>, Version: <span id="c_version"></span></p>
-        <p class="m-b-0">SDM120 Modbus Energy Meter to MQTT Gateway | <a href="mailto:csongor.varga@gmail.com">Csongor Varga</a> | <a href="">GitHub</a></p>
+        <p class="m-b-0">SDM120 Modbus Energy Meter to MQTT Gateway | <a href="mailto:csongor.varga@gmail.com">Csongor Varga</a> | <a href="https://github.com/nygma2004/sdm1202mqtt">GitHub</a></p>
       </div>
 </div>
 
