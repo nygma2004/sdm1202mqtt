@@ -40,4 +40,5 @@ To make this project work (modbus communnication and the web bits (MQTT, HTTP) y
 
 ## Video
 Youtube video on this project (coming soon):
-[![Prototype](https://img.youtube.com/vi/Mz1dJGthIJk/0.jpg)](https://www.youtube.com/watch?v=Mz1dJGthIJk)
+
+[![Prototype](https://img.youtube.com/vi/-V4L6XIhLb0/0.jpg)](https://www.youtube.com/watch?v=-V4L6XIhLb0)
