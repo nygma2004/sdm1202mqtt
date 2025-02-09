@@ -1,6 +1,8 @@
 # SDM120 Single Phase Energy Meter to MQTT Gateway
 For me next project, I took my earlier Modbus RTU to MQTT projects and modified it to work with the Eastron SDM 120 single phase energy meter. This sketch reads the voltage, current, active power, power factor, frequency and total active energy readings from the energy meter and publishes the data over MQTT.
 
+**UPDATE - KNOWN ISSUES** there are some issues with the recent version of ESP8266 board and some of the libraries. If you are facing these, please scroll down to the Known Issues sections later in this document.
+
 ![Setup](/img/board.jpg)
 
 I will use this project to monitor the AC charging of my electric car.
@@ -42,3 +44,13 @@ To make this project work (modbus communnication and the web bits (MQTT, HTTP) y
 Youtube video on this project (coming soon):
 
 [![Prototype](https://img.youtube.com/vi/-V4L6XIhLb0/0.jpg)](https://www.youtube.com/watch?v=-V4L6XIhLb0)
+
+## Known Issues
+Apperantly there is an issue with the latest version of the ESP8266 board manager version and FastLED. The symptom is that the ESP cannot connect to the MQTT broker and get reset by the watchdog timer (WDT) all the time. I managed to install everything and compile a working ESP but downgrading FastLED to 3.3.3. These are my Arduino IDE settings, and at the moment everything is on the latest version, except FastLED.
+
+- Arduino IDE: 2.3.4
+- ESP 8266 board library: 3.1.2
+- FastLED: 3.3.3
+- EspSoftwareSerial: 8.1.0
+- Modbusmaster: 2.0.1
+
